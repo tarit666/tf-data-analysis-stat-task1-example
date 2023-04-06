@@ -2,10 +2,13 @@ import pandas as pd
 import numpy as np
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 681730925 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
-    # Не меняйте название функции и её аргументы
-    return x.mean() # Ваш ответ
+    # Не меняйте название функции и её аргументы v = s/t a = v/t 
+    for element in x:
+      x = x/51**2
+    grade = len(x)/sum(x)
+    return grade # Ваш ответ

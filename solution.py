@@ -9,6 +9,6 @@ def solution(x: np.array) -> float:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы v = s/t a = v/t 
     for element in x:
-      x = x/51**2
+      x = x/np.power(51, 2)
     grade = len(x)/sum(x)
     return grade # Ваш ответ
